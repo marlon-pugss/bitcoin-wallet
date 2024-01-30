@@ -1,13 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
-from bitcoin_wallet.db.repository import BitcoinTransactionRepository
-from bitcoin_wallet.config import DatabaseConfig
+from bitcoin_wallet.src.db.repository import BitcoinTransactionRepository
 import os
 
 app = Flask(__name__)
 
 transaction_repository = BitcoinTransactionRepository()
 
-app.template_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+app.template_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../templates')
 
 @app.route('/')
 def show_transactions():

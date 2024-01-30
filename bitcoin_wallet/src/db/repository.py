@@ -1,5 +1,5 @@
 from bitcoin_wallet.model import BitcoinTransaction
-from bitcoin_wallet.db.database_connection import Session
+from bitcoin_wallet.src.db.database_connection import Session
 import logging
 
 class BitcoinTransactionRepository:
