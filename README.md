@@ -10,3 +10,11 @@ O **Bitcoin Wallet** é uma carteira virtual projetada para tornar o armazenamen
 
 - **Acompanhar Ganhos e Perdas:** Registre o preço de compra da moeda e o valor atual para monitorar se houve ganho ou perda.
 
+## Como Contribuir
+
+Estamos abertos a colaborações de desenvolvedores interessados em melhorar este projeto. Se você tem ideias, correções ou novos recursos, sinta-se à vontade para contribuir. Aqui estão algumas maneiras de começar:
+
+1. **Fork do Projeto**
+2. **Crie sua Feature Branch:**
+   ```bash
+   git checkout -b feature/SuaNovaFeature
